@@ -1,0 +1,75 @@
+h1 {
+	font-style: oblique;
+	font-family: Verdana;
+	color: white;
+}
+#header{
+	background-color:brown;
+	text-align: left;
+	padding-left: 25px;
+
+}
+#sidebar{
+	height:auto;
+	width:auto;
+	float:left;
+	padding-right: 25px;
+	padding-left: 25px;
+	color: brown;
+	text-align: left;
+}
+#content{
+	background-color:white;
+	height:800px;
+	width:800px;
+	float:left;
+	padding-left: 100px;
+	display: block;
+	margin-right:auto; 
+	margin-left:auto;
+}
+#footer{
+	clear:both;
+	text-align:center;
+	color:white;
+	border-style: solid;
+	border-color: brown;
+	background-color:brown;
+	padding-top: 5px;
+}
+
+span{
+	font-family: Verdana, sans-serif;
+	color: brown;
+}
+a:link{
+	text-decoration: none;
+	color:brown;
+}
+a:visited {
+    color: brown;
+}
+a:hover {
+    background-color: brown;
+    color: white;
+}
+a:active {
+    color: brown;
+}
+img {
+	width:800px;
+	height: 400px;
+	float:right;
+	padding-top: 25px;
+}
+figure { 
+  display: block; 
+  position: relative;  
+}
+
+figcaption { 
+  position: absolute; 
+  background: brown; 
+  color: white; 
+  padding: 9px 20px; 
+}
