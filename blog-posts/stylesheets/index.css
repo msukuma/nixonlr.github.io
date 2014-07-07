@@ -1,0 +1,76 @@
+body{
+  height:100%;
+  width:100%;
+}
+header{
+  color:brown;
+  width:100%;
+  height:auto;
+  padding-right: 5%;
+
+} 
+#pagetitle{
+  background-color: brown;
+  color:white;
+  width:100%;
+  padding-left:1%;
+}
+h1{
+  font-family:'Lobster';
+  font-size:3.3em;
+}
+nav{
+  padding-left: 3%;
+  width:98%;
+  margin:auto;
+  height:auto;
+}
+nav ul{
+  margin-left: 5%;
+}
+nav ul li{
+  display:inline-block;
+  padding:0.1em 0.3em 0.1em 0.3em;
+  margin:0.25em 0.25em 0.5em 0.25em;
+  border-left:0.20em solid brown;
+  border-right:0.20em solid brown;
+  font-size:1.5em;
+  font-family:'Pacifico';
+  opacity: 0.6;
+}
+#current{
+  opacity: 1;
+}
+nav ul li:hover{
+  opacity: 1;
+}
+a:link{
+  text-decoration: none;
+  color:brown;
+}
+a:visited{
+  text-decoration: none;
+  color:brown;
+}
+a:active {
+  text-decoration: none;
+  color:brown;
+}
+footer{
+  font-family:'Lobster';
+  color: brown;
+  width: 100%;
+  margin:25% 50% 5% 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
