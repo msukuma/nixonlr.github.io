@@ -1,13 +1,11 @@
 body{
-	height:100%;
-	width:100%;
+	height:auto;
+	width:auto;
   background-color: rgb(243,234,186);
 }
 header{
 	width:100%;
 	height:auto;
-  padding-right: 5%;
-
 } 
 #pagetitle{
   background-color: brown;
@@ -104,9 +102,9 @@ footer{
   font-family:'Pacifico';
   color: brown;
   width: 100%;
-  margin:5% 50% 5% 50%;
+  text-align: center;
+  margin-top:5%;
 }
-
 @font-face {
   font-family: 'Pacifico';
   font-style: normal;

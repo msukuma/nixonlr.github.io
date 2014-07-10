@@ -6,8 +6,6 @@ body{
 header{
 	width:100%;
 	height:auto;
-  padding-right: 5%;
-
 } 
 #pagetitle{
   background-color: brown;
@@ -96,7 +94,8 @@ footer{
   font-family:'Pacifico';
   color: white;
   width: 100%;
-  margin:5% 50% 5% 50%;
+  margin-top: 5%;
+  text-align: center;
 }
 @font-face {
   font-family: 'Pacifico';
