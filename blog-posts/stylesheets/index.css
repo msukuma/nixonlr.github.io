@@ -65,27 +65,35 @@ a:active {
 }
 #tech{
   float:right;
-  margin-right: 20%;
+  margin-right: 10%;
   margin-top: 10%;
 }
 #cul{
   float: left;
-  margin-left: 25%;
-  margin-top: 20%;
+  margin-left: 22%;
+  margin-top: 15%;
+  margin-bottom: 10%;
 }
 section ul li{
   list-style-type: none;
-  padding:3%;
+  padding:3% 0% 3% 0%;
   font-family: 'Courier';
+  text-align: left;
+  opacity: 0.6;
+}
+section ul li:hover{
+  opacity: 1;
 }
 footer{
   font-family:'Pacifico';
   color: brown;
-  height: 100%;
   width: 100%;
   clear:both;
+  border-top: 0.25em solid brown;
+  width:93%;
+  margin-left: 8%;
+  margin-top: 5%;
   text-align: center;
-
 }
 @font-face {
   font-family: 'Pacifico';
