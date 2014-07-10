@@ -1,9 +1,9 @@
 body{
 	height:100%;
 	width:100%;
+  background-color: #272822;
 }
 header{
-  color:brown;
 	width:100%;
 	height:auto;
   padding-right: 5%;
@@ -16,7 +16,7 @@ header{
   padding-left:1%;
 }
 h1{
-	font-family:'Lobster';
+	font-family:'Pacifico';
 	font-size:3.3em;
 }
 nav{
@@ -70,14 +70,19 @@ article h3{
   background-color: brown;
   color: white;
   padding: 0.5em 1em; 
-  
   font-family: 'Courier';
 }
 p{
   margin:3%;
   font-family:'Courier';
+  color: white;
 }
-img{
+img {
+  width: 72%;
+  margin:3%;
+
+}
+a img{
   height: 50%;
   width: 50%;
   margin-left: 20%;
@@ -88,12 +93,17 @@ a img:hover{
 }
 footer{
   clear:both;
-  font-family:'Lobster';
-  color: brown;
+  font-family:'Pacifico';
+  color: white;
   width: 100%;
   margin:5% 50% 5% 50%;
 }
-
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(http://themes.googleusercontent.com/static/fonts/pacifico/v5/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
 
 
 
