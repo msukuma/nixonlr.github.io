@@ -84,15 +84,8 @@ ol li{
 }
 img {
   height: 10%;
-  width: 100%;
-  margin:3%;
-
-}
-a img{
-  height: 50%;
   width: 50%;
-  margin-left: 20%;
-  margin-top: 5%;
+  margin:5% 20%;
 }
 a img:hover{
   opacity: 0.5;

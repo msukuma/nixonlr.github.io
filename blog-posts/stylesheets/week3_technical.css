@@ -43,8 +43,10 @@ nav ul li:hover{
   opacity: 1;
 }
 #date{
-  font-size: 7%;
+  font-size: 0.7em;
+  font-family: 'Courier';
   color: white;
+
 }
 a:link{
   text-decoration: none;
