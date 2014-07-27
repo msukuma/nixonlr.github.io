@@ -1,0 +1,131 @@
+body{
+	height:100%;
+	width:100%;
+  background-color: #272822;
+}
+header{
+	width:100%;
+	height:auto;
+} 
+#pagetitle{
+  background-color: brown;
+  color:white;
+  width:100%;
+  padding-left:1%;
+}
+h1{
+	font-family:'Pacifico';
+	font-size:3.3em;
+}
+nav{
+  padding-left: 3%;
+  margin-left:0; 
+  width:98%;
+  height:auto;
+}
+nav ul{
+  border-bottom:0.25em solid brown;
+}
+nav ul li{
+  display:inline-block;
+  padding:0.1em 0.3em 0.1em 0.3em;
+  margin:0.25em 0.25em 0.5em 0.25em;
+  border-left:0.20em solid brown;
+  border-right:0.20em solid brown;
+  font-size:1.5em;
+  font-family:'Pacifico';
+  opacity: 0.6;
+}
+nav ul li:hover{
+  opacity: 1;
+}
+#current{
+  opacity: 1;
+}
+#date{
+  font-size: 0.7em;
+  font-family: 'Courier';
+  color: white;
+  margin-left: 0;
+
+}
+a:link{
+  text-decoration: none;
+  color:brown;
+}
+a:visited{
+  text-decoration: none;
+  color:brown;
+}
+a:active {
+  text-decoration: none;
+  color:brown;
+}
+
+article {
+  background-color: transparent;
+  margin:auto;
+  margin-left: 20%;
+  margin-top: 5%;
+  width:70%;
+  height: auto; 
+}
+article h3{
+  display: inline;
+  background-color: brown;
+  color: white;
+  padding: 0.5em 1em; 
+  font-family: 'Courier';
+}
+
+.head{
+  font-size: 1.2em;
+  color: brown;
+  font-family: "Courier";
+  margin-left: 3%;
+}
+p {
+  font-family: 'Courier';
+  font-size: 95%;
+  margin-left: 6%;
+  margin-right: 20%;
+  color: White;
+}
+p a:link{
+  text-decoration: none;
+  color: brown;
+  opacity: 0.9;
+}
+p a:hover{
+  opacity: 1;
+}
+img {
+  margin-left:6%;
+}
+
+}
+footer{
+  clear:both;
+  font-family:'Pacifico';
+  color: brown;
+  width: 100%;
+  margin-top: 5%;
+  text-align: center;
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(http://themes.googleusercontent.com/static/fonts/pacifico/v5/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+
+
+
+
+
+
+
+
+
+
+
