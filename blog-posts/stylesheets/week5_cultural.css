@@ -64,7 +64,7 @@ article {
   background-color: transparent;
   margin-left: 20%;
   margin-top: 5%;
-  width:70%;
+  width:50%;
   height: auto; 
 }
 article h3{
@@ -77,7 +77,7 @@ article h3{
 }
 article p{
   margin-left :3%;
-  margin-right: 30;
+  /*margin-right: 30;*/
   font-family:'Courier';
 }
 
