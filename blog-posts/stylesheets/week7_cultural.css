@@ -1,0 +1,112 @@
+body{
+  background-color: rgb(243,234,186);
+}
+header{
+	width:100%;
+	height:auto;
+} 
+#pagetitle{
+  background-color: brown;
+  color:white;
+  width:100%;
+  padding-left:1%;
+}
+h1{
+	font-family:'Pacifico';
+	font-size:3.3em;
+  color: rgb(243,234,186);
+}
+nav{
+  padding-left: 3%;
+  width:98%;
+  height:auto;
+}
+nav ul{
+  border-bottom:0.25em solid brown;
+}
+nav ul li{
+  display:inline-block;
+  padding:0.1em 0.3em 0.1em 0.3em;
+  margin:0.25em 0.25em 0.5em 0.25em;
+  border-left:0.20em solid brown;
+  border-right:0.20em solid brown;
+  font-size:1.5em;
+  font-family:'Pacifico';
+  opacity: 0.6;
+}
+nav ul li:hover{
+  opacity: 1;
+}
+#current{
+  opacity: 1;
+}
+a:link{
+  text-decoration: none;
+  color:brown;
+}
+a:visited{
+  text-decoration: none;
+  color:brown;
+}
+a:active {
+  text-decoration: none;
+  color:brown;
+}
+#date{
+  font-size: 0.7em;
+  font-family: 'Courier';
+  color: white;
+  margin-left: 0;
+  color: black;
+}
+.head{
+  font-size: 1.2em;
+  color: brown;
+  font-family: "Courier";
+  margin-left: 3%;
+}
+
+article {
+  background-color: transparent;
+  margin-left: 25%;
+  margin-top: 5%;
+  width:50%;
+}
+article h3{
+  display: inline;
+  background-color: brown;
+  color: white;
+  padding: 0.5em 1em; 
+  color: rgb(243,234,186);
+  font-family: 'Courier';
+}
+article p{
+  margin-left :5%;
+  /*margin-right: 30;*/
+  font-family:'Courier';
+  font-size: 100%
+}
+
+footer{
+  clear:both;
+  font-family:'Pacifico';
+  color: brown;
+  width: 100%;
+  text-align: center;
+  vertical-align: baseline;
+  margin-top:5%;
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(http://themes.googleusercontent.com/static/fonts/pacifico/v5/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+
+
+
+
+
+
+
+
